@@ -1,0 +1,115 @@
+* {
+    font-weight: lighter;
+    font-family: Lora;
+}
+
+.second-section {
+    background-image: url('weblayoutvid.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+    position: relative;
+    z-index: 0;
+    width: 100vw;
+
+    
+}
+
+
+
+.overlay {
+    width: 100vw;
+    color: white;
+    background-color: rgba(237, 237, 237, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.overlay p.title {
+    font-size: 4rem;
+    background-color: rgba(255, 255, 255, 0);
+    text-align: center;
+    border: none;
+    margin-top: 30px;
+
+}
+
+form {
+    background-color: rgba(142, 6, 6, 0);
+
+}
+
+
+.overlay form {
+  
+    display: grid;
+    margin-top: 150px;
+    font-size: 1.75rem;
+    text-align: left;
+    justify-content: center;
+    grid-template-columns: 20% auto;
+    border: none;
+    
+}
+
+.ticket-buttons {
+    color: rgb(255, 255, 255);
+    background-color: rgba(80, 15, 15, 0);
+    grid-row: 1;
+    display: grid;
+  
+    z-index: 2;
+    justify-content: space-between;
+    padding-bottom: 15px;
+    
+}
+
+button {
+   
+    font-size: 1.5rem;
+    color: rgb(199, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    border-color: red;
+    margin: 15px;
+    font-style: lighter;
+    border: 1px solid rgb(200, 0, 0);
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(218, 0, 0);
+    padding: 10px 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding-bottom: 5px;
+    text-align: center;
+    
+    
+
+}
+
+button:hover {
+
+   
+    color: white;
+    background-color: rgb(187, 0, 0);
+    border-style: groove;
+    border-color: red;
+    margin: 15px;
+}
+
+p {
+    background-color: rgba(0, 0, 255, 0);
+ 
+}
+   
+aside {
+    background-color: rgba(0, 0, 255, 0);
+    display: grid;
+    justify-content: space-between;
+    
+}
+

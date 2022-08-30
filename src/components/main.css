@@ -1,0 +1,52 @@
+* {
+    background-color: rgb(0, 0, 0);
+    
+}
+
+
+
+
+.main-nav {
+ 
+    background-color: #000000;
+    width: 100vw;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 6rem;
+    padding-bottom: 25px;
+  
+  
+}
+
+.main-nav .site-title{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-decoration: none;
+    
+    
+  
+}
+
+
+
+.social-links {
+    
+    display: block;
+    font-size: 2rem;
+    padding-right: 100vw;
+    padding-bottom: 140px;
+    
+}
+
+.social-links li {
+    background-color: rgba(255, 192, 203, 0);
+    display: block;
+    font-size: 1.75rem;
+    list-style-type: none;
+    padding-top: 40px;
+    margin-bottom: 10px;
+    padding-left: 40px;
+}
+
+
+ 

@@ -1,0 +1,14 @@
+.footer-component {
+ 
+    color: rgb(255, 0, 0);
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    height: 400px;
+    z-index: 1;
+    width: 100vw;
+    margin-top: 50px;
+
+    
+}
+
+
