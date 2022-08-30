@@ -1,4 +1,5 @@
 
+
 import './style.css';
 import Main from './components/Main';
 import Footer from "./components/Footer";
@@ -7,9 +8,11 @@ import Video from "./components/Video";
 
 
 
+
 function App() {
   return (
     <div className='container'>
+
       
       <Main />
       <Video />
@@ -21,6 +24,7 @@ function App() {
         
       </div>
       
+
     </div>
   );
 }

@@ -1,4 +1,5 @@
 import React from "react"
+
 import { FaTiktok, FaTwitter } from 'react-icons/fa';
 import { FaFacebook } from 'react-icons/fa';
 import { FaSoundcloud } from 'react-icons/fa';
@@ -9,9 +10,11 @@ import "./main.css";
 
 
 
+
 export default function Main (){
     return(
         <>
+
          <nav className="main-nav">
            <a href="/" className="site-title">
             YEAT
@@ -40,6 +43,7 @@ export default function Main (){
                     <a href="soundcloud.com"><FaSoundcloud color="white" /></a>
                     </li>
                 </div>
+
             </aside>
         </div>
         </ >
