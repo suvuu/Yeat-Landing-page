@@ -1,1 +1,1 @@
-website landing page for hip hop artist YEAT. work in progress.
+mock hip-hop artist YEAT landing page for tour dates and links to social media. used React to create style components for the social media icon links. work in progress, wanting to add email newsletter component and tour date background video quality adjustment.
